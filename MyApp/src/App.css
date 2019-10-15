@@ -1,0 +1,180 @@
+body {
+  padding: 50px;
+  font: 14px sans-serif;
+}
+
+div#header {
+  display:block;
+  border: 2px solid black;
+  background-color: #3b5998;
+  width:1250px;
+
+}
+
+div#login_page {
+  display:block;
+  border: 2px solid black;
+  background-color: #3b5998;
+  margin-left:400px;
+  width:350px;
+  height:450px;
+  text-align: center;
+}
+
+div#login_page h1{
+  display : block;
+  color:white;
+  margin:auto;
+  width:300px;
+  height:100px;
+  margin-top:35px;
+  font-size: 40px;
+}
+
+div#login_page span{
+  display : block;
+  color: white;
+  font-size: 25px;
+  margin:auto;
+  height:30px;
+}
+
+div#login_page input[type="text"], input[type="password"]{
+  display :block;
+  font: 200% sans-serif;
+  width:150px;
+  height:30px;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 3px #ddd;
+  margin:auto;
+  border-radius: 4px;
+}
+
+div#login_page button{
+  display:inline-block;
+  margin-top: 75px;
+  font: 200% sans-serif;
+  background-color: white;
+  color: black;
+  padding: 8px 14px;
+  width: 40%;
+  font-size: 17px;
+}
+
+
+div#header h1{
+  display : inline-block;
+  color: white;
+  font: 400% sans-serif;
+  margin-left: 500px;
+  width:900px;
+  height:10px;
+}
+
+div#header h3{
+  display : inline-block;
+  vertical-align:bottom;
+  height:5px;
+  color: white;
+  margin-left: 5px;
+}
+
+div#header input[type="text"]{
+  display : inline-block;
+  width:150px;
+  height:20px;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 3px #ddd;
+  border-radius: 4px;
+}
+
+div#header button{
+  display:inline-block;
+  font-size: 20px;
+  margin-left: 1050px;
+  background-color: white;
+  border-color: black;
+}
+
+div#content {
+  display:block;
+  margin-left: 0px;
+}
+
+
+div#starlist{
+  display: inline-block;
+  border: 2px solid black;
+  vertical-align:top;
+  width:200px;
+  height:500px;
+  font-size: 20px;
+  overflow-y:scroll;
+  box-shadow: 5px 5px 2px grey;
+  border-radius: 5px;
+  padding: 10px;
+  float:left;
+  margin-top: 3px;
+}
+
+div#main{
+  display:inline-block;
+  width:1000px;
+  height:500px;
+  background-size: 1000px 500px;
+  background-position: bottom;
+  border: 2px solid black;
+  box-shadow: 5px 5px 3px grey;
+  border-radius: 5px;
+  margin-left: 7px;
+  margin-top: 3px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+div#post_comment{
+  display:inline-block;
+  vertical-align:top;
+  float:left;
+  width:1000px;
+  height:500px;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  margin-bottom: 10px;
+  background-size: 1000px 410px;
+  background-position: bottom;
+
+}
+
+div#post{
+  display:inline-block;
+  vertical-align:top;
+  float:left;
+  font-size: 20px;
+  width:1000px;
+  height:410px;
+  overflow-y:scroll;
+  background-size: 1000px 410px;
+  background-position: bottom;
+
+}
+
+#usericon{
+  margin-left: 5px;
+  display:inline-block;
+  width: 70px;
+  height:70px;
+}
+
+#friendicon{
+  display:inline;
+  width: 80px;
+  height:80px;
+}
+
+#username{
+  display:inline-block;
+  width: 10px;
+  font: 200% sans-serif;
+}
+
